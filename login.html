@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GoRide Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="login-container">
+
+    <h1 class="logo">
+      Go<span>Ride</span>
+    </h1>
+
+    <p class="subtitle">Enter your details to Signin</p>
+
+    <form id="loginForm">
+
+      <input
+        type="email"
+        id="email"
+        placeholder="Email id"
+      />
+      <small class="error" id="emailError"></small>
+
+      <input
+        type="password"
+        id="password"
+        placeholder="Password"
+      />
+      <small class="error" id="passwordError"></small>
+
+      <button type="submit" id="loginBtn" disabled>
+        Login
+      </button>
+
+      <p class="or">or</p>
+
+      <div class="social">
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+
+      <p class="signup">
+        New to GoRide? <a href="/signup.html">Signup</a>
+      </p>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
